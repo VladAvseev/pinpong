@@ -1,0 +1,73 @@
+body {
+    background: darkcyan;
+}
+
+.score {
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 680px;
+}
+
+p {
+    font-size: 50px;
+}
+
+.arena {
+    position: relative;
+    margin: 100px auto;
+    margin-top: 10px;
+    width: 580px;
+    height: 400px;
+    background: url(arena.jpg);
+    background-position: center;
+
+}
+
+.btns {
+    display: flex;
+}
+
+.start-btn {
+    position: relative;
+    margin: 450px 0px 0px 120px;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    background: bisque;
+}
+
+.player {
+    width: 20px;
+    height: 100px;
+    border-radius: 5px;
+    background: grey;
+    transform: translate(0, 0);
+    transition: transform 100ms linear;
+}
+
+#player1 {
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    background: blue;
+}
+
+#player2 {
+    position: absolute;
+    left: 560px;
+    top: 150px;
+    background: darkred;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: grey;
+    position: absolute;
+    left: 290px;
+    top: 190px;
+    background: white;
+    background-size: 100%;
+}
